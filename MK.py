@@ -1,3 +1,4 @@
+from time import sleep
 def calc(scores):
     a = int(scores[0])
     b = int(scores[1])
@@ -45,3 +46,4 @@ for x in range(1, 5):
 	total += us
 
 	print("Us: " + str(total) + " Them: " + str(opponent))
+sleep(100)
